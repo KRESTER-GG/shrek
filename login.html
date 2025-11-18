@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
-    <title>Blog Personal - Inici</title>
+    <title>Blog Personal - Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Benvinguts al meu Blog</h1>
+        <h1>Inicia sessió</h1>
         <nav>
             <a href="index.html">Inici</a> |
             <a href="about.html">Sobre nosaltres</a> |
@@ -20,14 +19,13 @@
     </header>
 
     <main>
-        <h2>Descobreix el nostre blog</h2>
-        <p>Blog sobre tecnologia, informàtica i projectes creatius.</p>
-        <img src="banner.jpg" alt="Banner del blog" style="width:100%;max-width:600px;">
-        <h3>Últimes entrades:</h3>
-        <ul>
-            <li><a href="posts.html#post1">Aprenent HTML bàsic</a></li>
-            <li><a href="posts.html#post2">Creació de formularis amb HTML</a></li>
-        </ul>
+        <form action="#" method="post">
+            <label for="username">Usuari:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Contrasenya:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Entrar">
+        </form>
     </main>
 
     <footer>
